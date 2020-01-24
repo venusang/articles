@@ -14,7 +14,7 @@ You will need the following things properly installed on your computer.
 - [Google Chrome](https://google.com/chrome/)
 - Ruby version 2.7
 - Rails 5 and up (this uses 6.0.2.1)
-- Download and install the API built in Ruby on Rails for this application: https://github.com/venusang/articles-api
+- Follow the instructions on how to download, install and run the corresponding API built in Ruby on Rails here: https://github.com/venusang/articles-api.
 
 ## Installation
 
@@ -24,6 +24,7 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-- The following steps assume you have the API from https://github.com/venusang/articles-api downloaded and running
+- Make sure you have followed the steps for downloading, installing and running the API from https://github.com/venusang/articles-api before completing the next steps
 - `ember server --proxy=http://localhost:3000`
-- View your app in a web browser of your choice at [http://localhost:4200/articles](http://localhost:4200/articles).
+- Verify your app is running by visiting your app in a web browser of your choice at [http://localhost:4200/articles](http://localhost:4200/articles).
+-
