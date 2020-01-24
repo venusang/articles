@@ -1,57 +1,29 @@
 # articles
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is an Ember (Octane) application that I built following the tutorial "Pagination in Ember with a JSON API Backend" by [Frank Treacy](https://emberigniter.com/pagination-in-ember-with-json-api-backend/).
+
+The corresponding API with pagination that I built in Ruby on Rails is located here: https://github.com/venusang/articles-api
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (with npm)
+- [Ember CLI](https://ember-cli.com/)
+- [Google Chrome](https://google.com/chrome/)
+- Ruby version 2.7
+- Rails 5 and up (this uses 6.0.2.1)
+- Download and install the API built in Ruby on Rails for this application: https://github.com/venusang/articles-api
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd articles`
-* `npm install`
+- `git clone <repository-url>` this repository
+- `cd articles`
+- `npm install`
 
 ## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+- The following steps assume you have the API from https://github.com/venusang/articles-api downloaded and running
+- `ember server --proxy=http://localhost:3000`
+- View your app in a web browser of your choice at [http://localhost:4200](http://localhost:4200/articles).
