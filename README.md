@@ -27,4 +27,10 @@ You will need the following things properly installed on your computer.
 - Make sure you have followed the steps for downloading, installing and running the API from https://github.com/venusang/articles-api before completing the next steps
 - `ember server --proxy=http://localhost:3000`
 - Verify your app is running by visiting your app in a web browser of your choice at [http://localhost:4200/articles](http://localhost:4200/articles).
--
+
+
+## Screenshots
+
+ ### http://localhost:4200/articles
+ 
+![Image of articles](https://raw.githubusercontent.com/venusang/articles/master/app-screenshot.png)
