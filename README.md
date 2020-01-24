@@ -18,7 +18,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-- `git clone <repository-url>` this repository
+- `git clone git@github.com:venusang/articles.git`
 - `cd articles`
 - `npm install`
 
@@ -26,4 +26,4 @@ You will need the following things properly installed on your computer.
 
 - The following steps assume you have the API from https://github.com/venusang/articles-api downloaded and running
 - `ember server --proxy=http://localhost:3000`
-- View your app in a web browser of your choice at [http://localhost:4200](http://localhost:4200/articles).
+- View your app in a web browser of your choice at [http://localhost:4200/articles](http://localhost:4200/articles).
