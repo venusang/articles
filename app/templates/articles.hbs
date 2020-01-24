@@ -1,0 +1,23 @@
+<h1>Last page: {{ @model.meta.pagination.last.number }}!</h1>
+<h1>Current page: {{ model.meta.pagination.self.number }}</h1>
+
+<ul>
+  {{#each @model as |article|}}
+    <li>
+      {{article.title}}
+      <blockquote>{{ article.body}}</blockquote>
+    </li>
+  {{/each}}
+</ul>
+
+{{#each-in @model.meta.pagination as |key value|}}
+  <LinkTo @route="articles" @query={{hash page=value.number}}>{{key}}</LinkTo>
+{{/each-in}}
+
+{{#each this.count as |number|}}
+  {{#if (eq number @model.meta.pagination.self.number) }}
+    {{ number }}
+  {{else}}
+    <LinkTo @route="articles" @query={{hash page=number}}>{{number}}</LinkTo>
+  {{/if}}
+{{/each}}
